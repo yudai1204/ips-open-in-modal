@@ -1,0 +1,44 @@
+#pdfExtensionIframe {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+}
+
+#pdfExtensionModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+}
+
+#extensionOpenPaperModal {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#extensionOpenPaperModal:hover {
+  background-color: #f0f0f0;
+}
+
+#extensionOpenPaperModal.isLoading {
+  opacity: 0.8;
+  background-color: #fff;
+  font-weight: normal;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
