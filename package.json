@@ -1,8 +1,8 @@
 {
-  "name": "ips-open-in-modal",
-  "displayName": "IPS Open in Modal",
+  "name": "jstage-open",
+  "displayName": "JstageOpenInNewTab",
   "version": "0.1.0",
-  "description": "情報処理学会の論文をDLせずにモーダルで開きます。",
+  "description": "JStageと情報処理学会をDLせずに新規タブで開きます。",
   "author": "yudai",
   "scripts": {
     "dev": "plasmo dev",
